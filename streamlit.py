@@ -22,7 +22,7 @@ option = st.sidebar.selectbox("Pick a choice:", ['Home','EDA','ML'])
 # # # -------------------------------- HOME ------------------------------------
 if option == 'Home':
       st.title("📊 Facebook Ads Analytics App")
-      st.markdown("### 👨‍💻 Author: **Mohamed Sulaiman**")
+      st.markdown("### 👨‍💻 Author: **AHMED KHALIFA**")
       st.write("This dashboard visualizes user behavior and predicts whether a user will click on a Facebook ad.")
       st.dataframe(df.head())
 
